@@ -8,7 +8,7 @@ An Android app to remotely scan, download, and visualize LiDAR point cloud data.
 
 ## 🛠 Features
 
-- Connect to a remote server hosted on an SBC wich is plugged to the LiDAR (cf TheUnderScannerServer Repo)
+- Connect to a remote server hosted on an SBC which is plugged to the LiDAR (cf [TheUnderScannerServer Repo](https://github.com/UnderScanner/TheUnderScannerServer))
 - Look into local and remote scans folder
 - Download `.pcd` scan files with progress tracking
 - View .pcd file (point cloud) with homemade 3D viewer with OpenGL
