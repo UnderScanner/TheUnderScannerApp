@@ -1,35 +1,37 @@
-# TheUnderScannerApp 📱
+# TheUnderScannerApp
 
 An Android app to remotely scan, download, and visualize LiDAR point cloud data.
 
-## 🚀 Current Version
+## Current Version
 
 `v0.1.0` — Early development stage (features subject to change)
 
-## 🛠 Features
+## Features
 
 - Connect to a remote server hosted on an SBC which is plugged to the LiDAR (cf [TheUnderScannerServer Repo](https://github.com/UnderScanner/TheUnderScannerServer))
 - Look into local and remote scans folder
-- Download `.pcd` scan files with progress tracking
-- View .pcd file (point cloud) with homemade 3D viewer with OpenGL
+- Download `.pcd` (point cloud) scan files with progress tracking
+- Homemade 3D viewer: View `.pcd` file with with OpenGL
 - Clean UI
 
-## 📂 Project Structure
+## Project Structure
 
 - `app/src/main` — Main Android application
 - Assets and scans are managed dynamically
 - Network layer uses Kotlin Coroutines and OkHttp
 
-## 📦 Installation
+## Installation
 
 1. Clone this repository
 2. Open with Android Studio
 3. Sync Gradle and run on device or emulator
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-This is a work-in-progress project. Expect some changes and improvements before reaching v1.0.0.
+This is a work-in-progress project.
+
+Next step is to implement real time duplex communication to view map creation during scanning process.
 
 ---
 
-Made with ❤️ by [Théotime Dmitrašinović]
+Made with ❤️ by Théotime Dmitrašinović
