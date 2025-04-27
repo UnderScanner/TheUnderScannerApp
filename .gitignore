@@ -1,0 +1,45 @@
+
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/build
+/captures
+.externalNativeBuild
+.cxx
+# Ignore build folders
+**/build/
+
+# Android Studio/IntelliJ
+*.iml
+.idea/
+.gradle/
+build/
+captures/
+.DS_Store
+
+# NDK / CMake builds
+.externalNativeBuild/
+.cxx/
+
+# Local configuration
+local.properties
+
+# Mac OS
+*.DS_Store
+
+# Keep Gradle Wrapper files
+!gradle/wrapper/gradle-wrapper.jar
+
+# Windows junk
+Thumbs.db
+
+# Log files
+*.log
+
+# Keystore files (if you generate a debug or release key)
+*.jks

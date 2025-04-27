@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.244.178.232</domain> <!-- Jetson IP -->
+    </domain-config>
+</network-security-config>
