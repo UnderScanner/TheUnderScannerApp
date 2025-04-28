@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.theunderscannerapp"
+    namespace = "com.underscanner.theunderscannerapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.theunderscannerapp"
+        applicationId = "com.underscanner.theunderscannerapp"
         minSdk = 30
         targetSdk = 35
         versionCode = 1
